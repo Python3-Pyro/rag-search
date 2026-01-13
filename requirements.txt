@@ -1,0 +1,13 @@
+# Core dependencies
+langgraph>=0.0.1
+langchain>=0.1.0
+langchain-openai>=0.1.0
+openai>=1.0.0
+tavily-python>=0.1.0
+python-dotenv>=1.0.0
+
+# Web UI
+streamlit>=1.28.0
+
+# Optional: For better logging and monitoring
+langsmith>=0.0.1
