@@ -55,18 +55,19 @@ A powerful AI agent that combines **Retrieval-Augmented Generation (RAG)** with 
 
 ## 📁 Project Structure
 
+In order of execution for our hands-on demo
+
 | File | Description |
 |------|-------------|
-| `lg-agent.py` | Main agentic workflow using LangGraph - combines RAG and web search |
-| `streamlit_app.py` | Interactive web UI for the RAG search agent |
-| `create-openai-vector-store.py` | Script to create and manage OpenAI vector stores |
+| `text-embedding.py` | Text embedding utilities |
 | `create-vector-db.py` | Script to create vector database from documents |
 | `search-vectordb.py` | Utility to search the vector database |
-| `text-embedding.py` | Text embedding utilities |
+| `create-openai-vector-store.py` | Script to create and manage OpenAI vector stores |
 | `rag-example.py` | Example RAG implementation |
+| `lg-agent.py` | Main agentic workflow using LangGraph - combines RAG and web search |
+| `streamlit_app.py` | Interactive web UI for the RAG search agent |
 | `recipes-book.pdf` | Sample PDF document for RAG |
 | `.env` | Environment variables (API keys) |
-| `.gitignore` | Git ignore rules |
 
 ## 💻 Usage
 
